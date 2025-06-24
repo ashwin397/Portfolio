@@ -1,0 +1,83 @@
+body{
+  background: linear-gradient(black, grey);
+  height: 5400px;
+  overflow-x: hidden;
+}
+#porthead{
+  font-size: 100px;
+  background: linear-gradient(to right, black, white);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+}
+#poread{
+  font-size: 80px;
+  background: linear-gradient(to right, black, white);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+}
+#hq{
+  border-radius: 50%;
+  border-width: 15px;
+  border-style: solid;
+  height: 300px;
+  float: left;
+}
+#portp{
+  font-size: 30px;
+  background: linear-gradient(to right, black, white);
+  color: transparent;
+  -webkit-background-clip: text;
+  text-align: center;
+}
+#porti{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+#porty{
+  font-size: 50px;
+  color: transparent;
+  background: linear-gradient(to right, black, grey);
+  -webkit-background-clip: text;
+  text-align: center;
+}
+#box1{
+  margin: auto;
+  border-radius: 50px;
+  width: 900px;
+  height: 700px;
+  box-shadow: 5px 5px 7px;
+  overflow: auto;
+  position: relative;
+  transform: translateX(0%);
+  animation: slide_in 4s ease-out forwards;
+  animation: slide_in 4s ease-out backwards;
+}
+@keyframes slide_in {
+  100% {
+    transform: translateX(100%);
+  }
+  0% {
+    transform: translateX(0%);
+  }
+}
+#box2{
+  margin: 15px;
+  float: left;
+  border-radius: 50px;
+  width: 450px;
+  height: 700px;
+  box-shadow: 5px 5px 7px;
+  overflow: auto;
+}
+#a1{
+  margin: 300px;
+  font-size: 30px;
+  color: grey;
+}
+#a2{
+  font-size: 30px;
+  color: black;
+}
