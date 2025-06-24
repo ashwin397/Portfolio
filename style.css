@@ -52,11 +52,11 @@ body{
   overflow: auto;
   position: relative;
   transform: translateX(0%);
-  animation: slide_in 4s ease-out forwards;
-  animation: slide_in 4s ease-out backwards;
+  animation: slide_in 10s ease-out forwards;
+  animation: slide_in 10s ease-out backwards;
 }
 @keyframes slide_in {
-  100% {
+  10% {
     transform: translateX(100%);
   }
   0% {
