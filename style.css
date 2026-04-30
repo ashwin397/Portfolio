@@ -56,11 +56,11 @@ body{
   animation: slide_in 4s ease-out forwards;
 }
 @keyframes slide_in {
-  0vw {
-    transform: translateX(100vw);
+  0% {
+    transform: translateX(100%);
   }
-  100vw {
-    transform: translateX(0vw);
+  100% {
+    transform: translateX(0%);
   }
 }
 #box2{
