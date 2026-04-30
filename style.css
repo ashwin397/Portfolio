@@ -1,6 +1,7 @@
 body{
   background: linear-gradient(black, grey);
-  height: 5450px;
+  height: 5150px;
+  width: 100%;
   overflow-x: hidden;
 }
 #porthead{
@@ -55,11 +56,11 @@ body{
   animation: slide_in 4s ease-out forwards;
 }
 @keyframes slide_in {
-  0% {
-    transform: translateX(100%);
+  50vw {
+    transform: translateX(100vw);
   }
-  100% {
-    transform: translateX(0%);
+  100vw {
+    transform: translateX(50vw);
   }
 }
 #box2{
